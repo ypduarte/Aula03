@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pagina1</title>
+    </head>
+        <body>
+            <h1 id="secao1"></h1>
+    <!--Imagem-->
+    <img src="../Imagens/lilies-7855265_1920.jpg"
+    title="lírio-vermelho" alt="lírio-vermelho"
+    width="800" height="500"/>
+    <br />
+    <img src="../Imagens/lilies-7855265_640.jpg" />
+    <br />
+    <br />
+    <!--Links e HiperLink-->
+    <a href="https://www.coca-cola.com.br/">
+        Acesse o site do IESB</a>
+    <br />
+    <br />
+    <a href="https://www.coca-cola.com.br/" 
+    target="_blank">Coca-Cola</a>
+    <a href="../Paginas/Pagina2.html" target="_blank">Acesso a Pagina 2</a>
+    <!--Ancora - Seção-->
+    <h1 id="secao1"></h1>
+    <a href="#secao1">Acesso ao Topo da Página</a>
+    <br />
+    <br />
+    <br />
+    <!--Tabelas-->
+    <table border="5">
+        <tr>
+            <td>Ponto 1</td>
+            <td>Ponto 2</td>
+            <td>Ponto 3</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <table border="5">
+        <tr>
+            <td colspan="3">Pontuação</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>200</td>
+            <td>300</td>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <table border="5">
+        <tr>
+            <td rowspan="3">Pontuação</td>
+        </tr>
+        <tr>
+            <td>100</td>
+        </tr>
+        <tr>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>300</td>
+        </tr>
+    </table>
+    <br />
+    <br />
+    <!--audio-->
+    <audio controls src="../audios/smoke-143172.mp3">Audio XY</audio>
+    <!--video-->
+    <video src="../Videos/por-do-sol-153976.mp4" 
+    width="800" height="500" controls>Video XY</video>
+        </body>
+</html>
